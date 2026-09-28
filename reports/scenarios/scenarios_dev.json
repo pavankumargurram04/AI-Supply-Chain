@@ -1,0 +1,876 @@
+[
+  {
+    "scenario_key": "demand_spike_10",
+    "scenario_type": "demand_spike",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 130.01729182673228,
+      "total_cost": 3700.7342423616446,
+      "stockout_probability": 0.9963,
+      "safety_stock": 52.15903261629148,
+      "reorder_point": 239.21023155275967,
+      "expected_service_level": 0.0037000000000000366,
+      "confidence": 0.3169533347482316,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 21.746384686614505,
+      "total_cost": 618.0431259859274,
+      "stockout_probability": 0.007099999999999995,
+      "safety_stock": 4.741730237844706,
+      "reorder_point": 21.746384686614505,
+      "expected_service_level": -0.007099999999999995,
+      "confidence": -0.0017750000035916536
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.1,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:20.524992+00:00"
+  },
+  {
+    "scenario_key": "demand_spike_20",
+    "scenario_type": "demand_spike",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 151.76367651334678,
+      "total_cost": 4318.7773683475725,
+      "stockout_probability": 0.9986,
+      "safety_stock": 56.90076285413616,
+      "reorder_point": 260.95661623937417,
+      "expected_service_level": 0.0013999999999999568,
+      "confidence": 0.3163783347452386,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 43.49276937322901,
+      "total_cost": 1236.0862519718553,
+      "stockout_probability": 0.009400000000000075,
+      "safety_stock": 9.483460475689384,
+      "reorder_point": 43.49276937322901,
+      "expected_service_level": -0.009400000000000075,
+      "confidence": -0.002350000006584696
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.2,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:21.243795+00:00"
+  },
+  {
+    "scenario_key": "demand_spike_50",
+    "scenario_type": "demand_spike",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 217.00283057319032,
+      "total_cost": 5860.2008000000005,
+      "stockout_probability": 1.0,
+      "safety_stock": 71.12595356767014,
+      "reorder_point": 326.1957702992177,
+      "expected_service_level": 0.0,
+      "confidence": 0.30335242799572393,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 108.73192343307255,
+      "total_cost": 2777.5096836242833,
+      "stockout_probability": 0.010800000000000032,
+      "safety_stock": 23.70865118922336,
+      "reorder_point": 108.73192343307255,
+      "expected_service_level": -0.010800000000000032,
+      "confidence": -0.015375906756099345
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.5,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:21.634016+00:00"
+  },
+  {
+    "scenario_key": "demand_spike_100",
+    "scenario_type": "demand_spike",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 325.73475400626296,
+      "total_cost": 9762.39432195699,
+      "stockout_probability": 1.0,
+      "safety_stock": 94.83460475689355,
+      "reorder_point": 434.9276937322903,
+      "expected_service_level": 0.0,
+      "confidence": 0.2976149847459928,
+      "n_suppliers": 2
+    },
+    "delta": {
+      "final_quantity": 217.4638468661452,
+      "total_cost": 6679.703205581272,
+      "stockout_probability": 0.010800000000000032,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": -0.010800000000000032,
+      "confidence": -0.021113350005830478
+    },
+    "effective_overrides": {
+      "demand_multiplier": 2.0,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:21.971429+00:00"
+  },
+  {
+    "scenario_key": "lead_time_plus_1",
+    "scenario_type": "lead_time_increase",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 112.480757902607,
+      "total_cost": 3202.337179971042,
+      "stockout_probability": 0.9931,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 221.6736976286344,
+      "expected_service_level": 0.006900000000000017,
+      "confidence": 0.3177533347518232,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 4.209850762489225,
+      "total_cost": 119.6460635953249,
+      "stockout_probability": 0.0039000000000000146,
+      "safety_stock": 0.0,
+      "reorder_point": 4.209850762489225,
+      "expected_service_level": -0.0039000000000000146,
+      "confidence": -0.0009750000000000592
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": 36.06,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:22.322955+00:00"
+  },
+  {
+    "scenario_key": "lead_time_plus_3",
+    "scenario_type": "lead_time_increase",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 122.36861416595275,
+      "total_cost": 3483.35499890346,
+      "stockout_probability": 0.9975,
+      "safety_stock": 47.80489792353424,
+      "reorder_point": 231.56155389198014,
+      "expected_service_level": 0.0024999999999999467,
+      "confidence": 0.3166533347518232,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 14.097707025834978,
+      "total_cost": 400.66388252774277,
+      "stockout_probability": 0.008300000000000085,
+      "safety_stock": 0.3875955450874642,
+      "reorder_point": 14.097707025834978,
+      "expected_service_level": -0.008300000000000085,
+      "confidence": -0.002075000000000049
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": 38.06,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:22.654120+00:00"
+  },
+  {
+    "scenario_key": "lead_time_plus_7",
+    "scenario_type": "lead_time_increase",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 143.0915794405498,
+      "total_cost": 4072.3120334901455,
+      "stockout_probability": 0.9996,
+      "safety_stock": 49.39504028853938,
+      "reorder_point": 252.28451916657718,
+      "expected_service_level": 0.00039999999999995595,
+      "confidence": 0.3161283347518232,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 34.82067230043202,
+      "total_cost": 989.6209171144283,
+      "stockout_probability": 0.010400000000000076,
+      "safety_stock": 1.9777379100925998,
+      "reorder_point": 34.82067230043202,
+      "expected_service_level": -0.010400000000000076,
+      "confidence": -0.0026000000000000467
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": 42.06,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:22.972093+00:00"
+  },
+  {
+    "scenario_key": "lead_time_plus_14",
+    "scenario_type": "lead_time_increase",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 177.9379412244813,
+      "total_cost": 5062.6630585703715,
+      "stockout_probability": 1.0,
+      "safety_stock": 51.140611914975494,
+      "reorder_point": 287.1308809505087,
+      "expected_service_level": 0.0,
+      "confidence": 0.31602833475182324,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 69.66703408436354,
+      "total_cost": 1979.9719421946543,
+      "stockout_probability": 0.010800000000000032,
+      "safety_stock": 3.723309536528717,
+      "reorder_point": 69.66703408436354,
+      "expected_service_level": -0.010800000000000032,
+      "confidence": -0.0027000000000000357
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": 49.06,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:23.262660+00:00"
+  },
+  {
+    "scenario_key": "supplier_failure",
+    "scenario_type": "supplier_failure",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 262.8831147491254,
+      "total_cost": 7719.269799461295,
+      "stockout_probability": 1.0,
+      "safety_stock": 62.028439990185916,
+      "reorder_point": 372.07605447515283,
+      "expected_service_level": 0.0,
+      "confidence": 0.2976149847657469,
+      "n_suppliers": 2
+    },
+    "delta": {
+      "final_quantity": 154.61220760900764,
+      "total_cost": 4636.578683085578,
+      "stockout_probability": 0.010800000000000032,
+      "safety_stock": 14.611137611739139,
+      "reorder_point": 154.61220760900767,
+      "expected_service_level": -0.010800000000000032,
+      "confidence": -0.02111334998607639
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": 65.06,
+      "lead_time_std_override": 5.0,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:23.565361+00:00"
+  },
+  {
+    "scenario_key": "capacity_reduction_50",
+    "scenario_type": "supplier_capacity_reduction",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 0.0,
+      "total_cost": 0.0,
+      "stockout_probability": 0.0,
+      "safety_stock": 0.0,
+      "reorder_point": 0.0,
+      "expected_service_level": 0.0,
+      "confidence": 0.0
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:23.847034+00:00"
+  },
+  {
+    "scenario_key": "inventory_50",
+    "scenario_type": "inventory_level",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 166.44923930335656,
+      "total_cost": 4736.148405621046,
+      "stockout_probability": 1.0,
+      "safety_stock": 46.50788822532658,
+      "reorder_point": 216.44923930335656,
+      "expected_service_level": 0.0,
+      "confidence": 0.31602833475182324,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 58.17833216323879,
+      "total_cost": 1653.4572892453284,
+      "stockout_probability": 0.010800000000000032,
+      "safety_stock": -0.9094141531201956,
+      "reorder_point": -1.0146075627885978,
+      "expected_service_level": -0.010800000000000032,
+      "confidence": -0.0027000000000000357
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": 50.0,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:24.141317+00:00"
+  },
+  {
+    "scenario_key": "inventory_100",
+    "scenario_type": "inventory_level",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 116.6620930015678,
+      "total_cost": 3321.1728141510575,
+      "stockout_probability": 0.9968,
+      "safety_stock": 46.775473040006204,
+      "reorder_point": 216.6620930015678,
+      "expected_service_level": 0.0031999999999999806,
+      "confidence": 0.31682833475182326,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 8.391185861450026,
+      "total_cost": 238.4816977753403,
+      "stockout_probability": 0.007600000000000051,
+      "safety_stock": -0.6418293384405729,
+      "reorder_point": -0.8017538645773641,
+      "expected_service_level": -0.007600000000000051,
+      "confidence": -0.0019000000000000128
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": 100.0,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:24.489588+00:00"
+  },
+  {
+    "scenario_key": "inventory_500",
+    "scenario_type": "inventory_level",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 0.0,
+      "total_cost": 0.0,
+      "stockout_probability": 0.0,
+      "safety_stock": 47.280533038481906,
+      "reorder_point": 217.0138953916747,
+      "expected_service_level": 1.0,
+      "confidence": 0.5952294628920132,
+      "n_suppliers": 0
+    },
+    "delta": {
+      "final_quantity": -108.27090714011777,
+      "total_cost": -3082.6911163757172,
+      "stockout_probability": -0.9892,
+      "safety_stock": -0.1367693399648715,
+      "reorder_point": -0.4499514744704527,
+      "expected_service_level": 0.9892,
+      "confidence": 0.2765011281401899
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": 500.0,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:24.775177+00:00"
+  },
+  {
+    "scenario_key": "inventory_1000",
+    "scenario_type": "inventory_level",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 0.0,
+      "total_cost": 0.0,
+      "stockout_probability": 0.0,
+      "safety_stock": 46.59749929653623,
+      "reorder_point": 216.57273500957467,
+      "expected_service_level": 1.0,
+      "confidence": 0.5952294628920132,
+      "n_suppliers": 0
+    },
+    "delta": {
+      "final_quantity": -108.27090714011777,
+      "total_cost": -3082.6911163757172,
+      "stockout_probability": -0.9892,
+      "safety_stock": -0.8198030819105497,
+      "reorder_point": -0.8911118565704896,
+      "expected_service_level": 0.9892,
+      "confidence": 0.2765011281401899
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": 1000.0,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:25.065483+00:00"
+  },
+  {
+    "scenario_key": "inventory_5000",
+    "scenario_type": "inventory_level",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 0.0,
+      "total_cost": 0.0,
+      "stockout_probability": 0.0,
+      "safety_stock": 48.03601147473657,
+      "reorder_point": 218.08466967039737,
+      "expected_service_level": 1.0,
+      "confidence": 0.5952294628920132,
+      "n_suppliers": 0
+    },
+    "delta": {
+      "final_quantity": -108.27090714011777,
+      "total_cost": -3082.6911163757172,
+      "stockout_probability": -0.9892,
+      "safety_stock": 0.6187090962897912,
+      "reorder_point": 0.6208228042522137,
+      "expected_service_level": 0.9892,
+      "confidence": 0.2765011281401899
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": 5000.0,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:25.380825+00:00"
+  },
+  {
+    "scenario_key": "inventory_10000",
+    "scenario_type": "inventory_level",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 0.0,
+      "total_cost": 0.0,
+      "stockout_probability": 0.0,
+      "safety_stock": 47.167786391356515,
+      "reorder_point": 216.9697868404146,
+      "expected_service_level": 1.0,
+      "confidence": 0.5952294628920132,
+      "n_suppliers": 0
+    },
+    "delta": {
+      "final_quantity": -108.27090714011777,
+      "total_cost": -3082.6911163757172,
+      "stockout_probability": -0.9892,
+      "safety_stock": -0.24951598709026257,
+      "reorder_point": -0.49406002573056185,
+      "expected_service_level": 0.9892,
+      "confidence": 0.2765011281401899
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": 10000.0,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:25.686486+00:00"
+  },
+  {
+    "scenario_key": "budget_constraint",
+    "scenario_type": "budget_constraint",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 0.0,
+      "total_cost": 0.0,
+      "stockout_probability": 0.0,
+      "safety_stock": 0.0,
+      "reorder_point": 0.0,
+      "expected_service_level": 0.0,
+      "confidence": 0.0
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": 5000.0,
+      "max_suppliers": null,
+      "service_level": null
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:25.972624+00:00"
+  },
+  {
+    "scenario_key": "service_target_99",
+    "scenario_type": "service_target",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 128.950147003631,
+      "total_cost": 3670.405452916695,
+      "stockout_probability": 0.9892,
+      "safety_stock": 68.09654224196001,
+      "reorder_point": 238.1430867296584,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": 20.67923986351323,
+      "total_cost": 587.7143365409779,
+      "stockout_probability": 0.0,
+      "safety_stock": 20.67923986351323,
+      "reorder_point": 20.67923986351323,
+      "expected_service_level": 0.0,
+      "confidence": 0.0
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": 0.99
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:26.256356+00:00"
+  },
+  {
+    "scenario_key": "service_target_90",
+    "scenario_type": "service_target",
+    "product_sku": "SKU-000000",
+    "warehouse_code": "WH-NY",
+    "baseline": {
+      "final_quantity": 108.27090714011777,
+      "total_cost": 3082.6911163757172,
+      "stockout_probability": 0.9892,
+      "safety_stock": 47.41730237844678,
+      "reorder_point": 217.46384686614516,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "scenario": {
+      "final_quantity": 97.13197118900251,
+      "total_cost": 2766.116987177046,
+      "stockout_probability": 0.9892,
+      "safety_stock": 36.27836642733152,
+      "reorder_point": 206.3249109150299,
+      "expected_service_level": 0.010800000000000032,
+      "confidence": 0.3187283347518233,
+      "n_suppliers": 1
+    },
+    "delta": {
+      "final_quantity": -11.138935951115258,
+      "total_cost": -316.574129198671,
+      "stockout_probability": 0.0,
+      "safety_stock": -11.138935951115258,
+      "reorder_point": -11.138935951115258,
+      "expected_service_level": 0.0,
+      "confidence": 0.0
+    },
+    "effective_overrides": {
+      "demand_multiplier": 1.0,
+      "lead_time_override_days": null,
+      "lead_time_std_override": null,
+      "inventory_override": null,
+      "budget": null,
+      "max_suppliers": null,
+      "service_level": 0.9
+    },
+    "seed": 42,
+    "run_at": "2026-09-24T07:26:26.550897+00:00"
+  }
+]

@@ -1,0 +1,219 @@
+{
+  "mode": "dev",
+  "reports": [
+    {
+      "name": "demand_monitor",
+      "metrics": {
+        "n_features_checked": 37,
+        "n_recent_rows": 2700,
+        "n_reference_rows": 16200,
+        "n_critical_drift_features": 0,
+        "n_warning_drift_features": 0,
+        "max_psi": 0.03823227272259151
+      },
+      "notes": [
+        "residuals unavailable; performance check skipped"
+      ],
+      "alerts": []
+    },
+    {
+      "name": "supplier_monitor",
+      "metrics": {
+        "n_features_checked": 36,
+        "max_psi": 3.643287802042033,
+        "n_critical_drift_features": 15,
+        "n_warning_drift_features": 2
+      },
+      "notes": [],
+      "alerts": [
+        {
+          "source": "supplier_drift",
+          "severity": "critical",
+          "title": "15 supplier feature(s) critically drifted",
+          "message": "feat_sup_days_since_delay(2.83), feat_sup_days_since_outage(2.17), feat_sup_days_since_quality(1.97), feat_sup_delay_count_180(0.61), feat_sup_delay_days_total_180(2.10)",
+          "entity_type": "supplier_model",
+          "entity_id": null,
+          "payload": {
+            "features": [
+              {
+                "feature": "feat_sup_days_since_delay",
+                "psi": 2.8302028454339463,
+                "ks_statistic": 0.2003831417624521,
+                "ks_p_value": 3.3059666936479967e-79,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_days_since_outage",
+                "psi": 2.1693972365662795,
+                "ks_statistic": 0.15000000000000002,
+                "ks_p_value": 2.0998227505681235e-44,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_days_since_quality",
+                "psi": 1.9683322273851849,
+                "ks_statistic": 0.18773946360153257,
+                "ks_p_value": 1.6668977366533302e-69,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_delay_count_180",
+                "psi": 0.6114867536003741,
+                "ks_statistic": 0.29348659003831423,
+                "ks_p_value": 3.2290706011164826e-171,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_delay_days_total_180",
+                "psi": 2.102157827728962,
+                "ks_statistic": 0.2836526181353767,
+                "ks_p_value": 9.474450528727501e-160,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_delay_days_total_365",
+                "psi": 3.461707714534214,
+                "ks_statistic": 0.26404853128991057,
+                "ks_p_value": 3.8408031059237336e-138,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_delay_days_total_90",
+                "psi": 2.931142080969627,
+                "ks_statistic": 0.21213282247765008,
+                "ks_p_value": 8.212052359185822e-89,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_ontime_proxy_180",
+                "psi": 3.643287802042033,
+                "ks_statistic": 0.29233716475095783,
+                "ks_p_value": 7.43484352736599e-170,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_ontime_proxy_365",
+                "psi": 2.6788736550789505,
+                "ks_statistic": 0.14438058748403576,
+                "ks_p_value": 3.709197517539661e-41,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_ontime_proxy_90",
+                "psi": 0.441319678129475,
+                "ks_statistic": 0.23314176245210727,
+                "ks_p_value": 2.06684212480217e-107,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_outage_count_365",
+                "psi": 1.5436366171509042,
+                "ks_statistic": 0.12337164750957863,
+                "ks_p_value": 3.9191137404862736e-30,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_outage_count_90",
+                "psi": 2.989599967921425,
+                "ks_statistic": 0.16296296296296298,
+                "ks_p_value": 2.232228454283003e-52,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_price_change_count_365",
+                "psi": 2.5260582428205356,
+                "ks_statistic": 0.31328224776500646,
+                "ks_p_value": 1.3611026580893801e-195,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_quality_count_180",
+                "psi": 3.1130174770635723,
+                "ks_statistic": 0.18620689655172418,
+                "ks_p_value": 2.257369180638053e-68,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              },
+              {
+                "feature": "feat_sup_quality_count_365",
+                "psi": 1.6981956109933396,
+                "ks_statistic": 0.2924648786717752,
+                "ks_p_value": 5.250529853445633e-170,
+                "n_reference": 15660,
+                "n_current": 2610,
+                "psi_severity": "critical"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "inventory_monitor",
+      "metrics": {
+        "recent_stockout_count": 93,
+        "reference_stockout_count": 227,
+        "recent_stockout_per_day": 3.1,
+        "reference_stockout_per_day": 1.261111111111111,
+        "stockout_rate_change": 1.458149779735683,
+        "recent_issue_count": 2621,
+        "stockout_to_issue_ratio": 0.035482640213658906
+      },
+      "notes": [],
+      "alerts": [
+        {
+          "source": "inventory_stockouts",
+          "severity": "warning",
+          "title": "93 stockouts in the last 30 days",
+          "message": "threshold 50 exceeded; recent rate 3.10/day vs reference 1.26/day",
+          "entity_type": "inventory",
+          "entity_id": null,
+          "payload": {
+            "recent_stockouts": 93,
+            "reference_stockouts": 227
+          }
+        },
+        {
+          "source": "inventory_stockout_ratio",
+          "severity": "warning",
+          "title": "Recent stockout rate materially above reference window",
+          "message": "3.100/day vs reference 1.261/day (+145.8%)",
+          "entity_type": "inventory",
+          "entity_id": null,
+          "payload": {
+            "recent_daily": 3.1,
+            "reference_daily": 1.261111111111111
+          }
+        }
+      ]
+    }
+  ],
+  "total_alerts": 3
+}

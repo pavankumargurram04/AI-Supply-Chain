@@ -73,9 +73,18 @@ def _mask_url(url: str) -> str:
 
 # ---------------- FastAPI dependency ----------------
 def get_db() -> Iterator[Session]:
+    """FastAPI dependency: one session per request, committed on success.
+
+    On any exception during the request, the transaction is rolled back
+    before the session is closed. This makes every write endpoint atomic.
+    """
     session = get_sessionmaker()()
     try:
         yield session
+        session.commit()
+    except Exception:
+        session.rollback()
+        raise
     finally:
         session.close()
 

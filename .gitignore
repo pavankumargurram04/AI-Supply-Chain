@@ -58,3 +58,11 @@ frontend/.vite/
 *.log
 *.sqlite
 *.sqlite3
+
+
+
+# --- Temporary / backup / generated development files ---
+*.bak
+*.tsbuildinfo
+coordinator_dump.txt
+psi_new.txt

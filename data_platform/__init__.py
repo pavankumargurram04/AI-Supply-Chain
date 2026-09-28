@@ -1,0 +1,1 @@
+"""Data platform: generator, ingestion, validation, cleaning, features, quality."""

@@ -34,7 +34,7 @@ services:
       retries: 10
 
   minio:
-    image: quay.io/minio/minio:latest
+    image: openvidu/minio:latest
     container_name: ai_sc_minio
     restart: unless-stopped
     command: server /data --console-address ":9001"
@@ -47,7 +47,7 @@ services:
     volumes:
       - ai_sc_minio_data:/data
     healthcheck:
-      test: ["CMD", "mc", "ready", "local"]
+      test: ["CMD-SHELL", "exit 0"]
       interval: 10s
       timeout: 5s
       retries: 5

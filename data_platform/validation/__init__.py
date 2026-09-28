@@ -1,0 +1,1 @@
+"""Data validation: schema, ranges, duplicates, missingness."""
